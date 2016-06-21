@@ -13,10 +13,12 @@
 		C8F5E8861D19A4160030DF13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8F5E8841D19A4160030DF13 /* Main.storyboard */; };
 		C8F5E8881D19A4160030DF13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8F5E8871D19A4160030DF13 /* Assets.xcassets */; };
 		C8F5E88B1D19A4160030DF13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8F5E8891D19A4160030DF13 /* LaunchScreen.storyboard */; };
+		C8F5E8941D19A47D0030DF13 /* TasksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F5E8931D19A47D0030DF13 /* TasksTableViewController.m */; };
+		C8F5E8971D19A5400030DF13 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F5E8961D19A5400030DF13 /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C8F5E8781D19A4160030DF13 /* UITableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F5E8781D19A4160030DF13 /* UITableView2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableView2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F5E87C1D19A4160030DF13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C8F5E87E1D19A4160030DF13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C8F5E87F1D19A4160030DF13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +28,10 @@
 		C8F5E8871D19A4160030DF13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8F5E88A1D19A4160030DF13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8F5E88C1D19A4160030DF13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8F5E8921D19A47D0030DF13 /* TasksTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasksTableViewController.h; sourceTree = "<group>"; };
+		C8F5E8931D19A47D0030DF13 /* TasksTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasksTableViewController.m; sourceTree = "<group>"; };
+		C8F5E8951D19A5400030DF13 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		C8F5E8961D19A5400030DF13 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +56,7 @@
 		C8F5E8791D19A4160030DF13 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C8F5E8781D19A4160030DF13 /* UITableView.app */,
+				C8F5E8781D19A4160030DF13 /* UITableView2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,10 +69,14 @@
 				C8F5E8811D19A4160030DF13 /* ViewController.h */,
 				C8F5E8821D19A4160030DF13 /* ViewController.m */,
 				C8F5E8841D19A4160030DF13 /* Main.storyboard */,
+				C8F5E8921D19A47D0030DF13 /* TasksTableViewController.h */,
+				C8F5E8931D19A47D0030DF13 /* TasksTableViewController.m */,
 				C8F5E8871D19A4160030DF13 /* Assets.xcassets */,
 				C8F5E8891D19A4160030DF13 /* LaunchScreen.storyboard */,
 				C8F5E88C1D19A4160030DF13 /* Info.plist */,
 				C8F5E87B1D19A4160030DF13 /* Supporting Files */,
+				C8F5E8951D19A5400030DF13 /* Task.h */,
+				C8F5E8961D19A5400030DF13 /* Task.m */,
 			);
 			path = UITableView;
 			sourceTree = "<group>";
@@ -82,9 +92,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C8F5E8771D19A4160030DF13 /* UITableView */ = {
+		C8F5E8771D19A4160030DF13 /* UITableView2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8F5E88F1D19A4160030DF13 /* Build configuration list for PBXNativeTarget "UITableView" */;
+			buildConfigurationList = C8F5E88F1D19A4160030DF13 /* Build configuration list for PBXNativeTarget "UITableView2" */;
 			buildPhases = (
 				C8F5E8741D19A4160030DF13 /* Sources */,
 				C8F5E8751D19A4160030DF13 /* Frameworks */,
@@ -94,9 +104,9 @@
 			);
 			dependencies = (
 			);
-			name = UITableView;
+			name = UITableView2;
 			productName = UITableView;
-			productReference = C8F5E8781D19A4160030DF13 /* UITableView.app */;
+			productReference = C8F5E8781D19A4160030DF13 /* UITableView2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,10 +120,11 @@
 				TargetAttributes = {
 					C8F5E8771D19A4160030DF13 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = BEG4WAH8YK;
 					};
 				};
 			};
-			buildConfigurationList = C8F5E8731D19A4160030DF13 /* Build configuration list for PBXProject "UITableView" */;
+			buildConfigurationList = C8F5E8731D19A4160030DF13 /* Build configuration list for PBXProject "UITableView2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -126,7 +137,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C8F5E8771D19A4160030DF13 /* UITableView */,
+				C8F5E8771D19A4160030DF13 /* UITableView2 */,
 			);
 		};
 /* End PBXProject section */
@@ -149,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8F5E8971D19A5400030DF13 /* Task.m in Sources */,
 				C8F5E8831D19A4160030DF13 /* ViewController.m in Sources */,
 				C8F5E8801D19A4160030DF13 /* AppDelegate.m in Sources */,
+				C8F5E8941D19A47D0030DF13 /* TasksTableViewController.m in Sources */,
 				C8F5E87D1D19A4160030DF13 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,10 +278,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = UITableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = applan.UITableView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = UITableView2;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -276,17 +292,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = UITableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = applan.UITableView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = UITableView2;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C8F5E8731D19A4160030DF13 /* Build configuration list for PBXProject "UITableView" */ = {
+		C8F5E8731D19A4160030DF13 /* Build configuration list for PBXProject "UITableView2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C8F5E88D1D19A4160030DF13 /* Debug */,
@@ -295,13 +314,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8F5E88F1D19A4160030DF13 /* Build configuration list for PBXNativeTarget "UITableView" */ = {
+		C8F5E88F1D19A4160030DF13 /* Build configuration list for PBXNativeTarget "UITableView2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C8F5E8901D19A4160030DF13 /* Debug */,
 				C8F5E8911D19A4160030DF13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
